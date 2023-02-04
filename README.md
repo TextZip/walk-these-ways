@@ -9,13 +9,17 @@
     2. [Environment and Model Configuration](#configuration)
     3. [Training and Logging](#training)
     4. [Analyzing the Policy](#analysis)
-4. [Deploying a Model](#realworld)
+4. [Deploying a Model - Onboard Jetson](#realworldjetson)
     1. [Installing the Deployment Utility](#robotconfig)
     2. [Running the Controller](#runcontroller)
     3. [RC Configuration](#rcconfig)
-    2. [Deploying a Custom Model](#configuration)
-    4. [Deployment and Logging](#deployment)
-    5. [Analyzing Real-world Performance](#plotting)
+5. [Deploying a Model - External PC/NUC]()
+    1. [Installing the Deployment Utility](#robotconfig)
+    2. [Running the Controller](#runcontroller)
+6. [Other Features](#otherfeatures)    
+    1. [Deploying a Custom Model](#configuration)
+    2. [Deployment and Logging](#deployment)
+    3. [Analyzing Real-world Performance](#plotting)
 
 ## Overview <a name="introduction"></a>
 
@@ -171,7 +175,7 @@ If it does not appear, and you're working in docker, make sure you haven't forgo
 
 
 
-## Deploying a Model  <a name="realworld"></a>
+## Deploying a Model  <a name="realworldjetson"></a>
 
 ### Safety Recommendations  <a name="robotconfig"></a>
 
